@@ -1,4 +1,4 @@
-＃rcnn_Lung
+# rcnn_Lung
 
 DICOM画像から肺結節を検出する
  
@@ -18,17 +18,18 @@ Colab Notebookに上記のライブラリをインストールするコマンド
 # Usage
 Colabで開くを押すとノートブックが開かれます。あとはセルを一つずつ実行すると実行されます。
 
-＃注意
-mrcnnはTensorflow v2.0は対応していないためインストールを忘れないこと
+# Note
+mrcnnはTensorflow v2.0は対応していないためインストールを忘れないこ
 DICOM形式の画像の為、OpenCVやPIL等の画像読み込みライブラリは使用できない。
-#課題
+
+# Task
 画像データが154枚と少なかった為か、出力結果がとても汚かった。
 次回以降はさらにデータを増やして実行したい。
 
-＃作者
+# author
 *奈良岡 伶
 
-＃参考文献
+# References
 *医療AIとディープラーニングシリーズPythonによる医療画像処理入門
 *MASK-RCNN sample starter code
 (https://www.kaggle.com/drt2290078/mask-rcnn-sample-starter-code)
