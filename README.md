@@ -2,16 +2,13 @@
 
 DICOM画像から肺結節を検出する
  
-＃ デモ
- 
-画像データが少なかったのが原因か、きれいに表示されませんでした。
- 
 # Requirement
  
 * mrcnn
 * pydicom
 *tensorflow==v1.x
 *keras==2.2.5
+
  
 # Installation
  
